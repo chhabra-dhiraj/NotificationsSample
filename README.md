@@ -25,6 +25,5 @@ This is a sample notifications implementation in Android using a Single Activity
 ## Libraries
 <ul>
   <li>Retrofit 2</li>
-  <li>gson</li>
-  <li>dagger-android</li>
+  <li>Gson</li>
 </ul>
