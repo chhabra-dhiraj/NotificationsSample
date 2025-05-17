@@ -4,13 +4,10 @@ import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
-import android.util.Log
 import androidx.lifecycle.*
 import io.github.chhabra_dhiraj.notire.database.getDatabase
-import io.github.chhabra_dhiraj.notire.network.NotificationMongoSchema
 import io.github.chhabra_dhiraj.notire.repository.NotificationsRepository
 import kotlinx.coroutines.*
-import retrofit2.HttpException
 
 class NotificationsViewModel(application: Application) : AndroidViewModel(application) {
 
